@@ -12,7 +12,7 @@ sh "ls -1"
 
 stage('Build docker image')
 {
-sh "docker build -t docker_test:latest ."
+sh "docker build -t dockerfile_naisenya:version1 ."
 }
 stage('Docker login to hub and push  the image')
 {
